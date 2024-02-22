@@ -78,6 +78,8 @@ function Object:is(T)
   return false
 end
 
+Object.instanceOf = Object.is
+
 function Object:__tostring()
   return self.__name or "Object"
 end
