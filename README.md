@@ -3,6 +3,18 @@
 A tiny class module for Lua. Attempts to stay simple and provide decent
 performance by avoiding unnecessary over-abstraction.
 
+## For changes
+
+Changes that I made to this library:
+
+* Add `name` paramater to `Object:extend` to give the class a name. If no name is given, it will fetch the variable name that the class is assigned to.
+```lua
+Point = Object:extend()
+print(Point) -- "Point"
+```
+* Add that implement also copies static properties that are not functions (copied from [this fork](https://github.com/Aweptimum/classin))
+* Add `:instanceOf` as alias for `:is`
+
 
 ## Usage
 
