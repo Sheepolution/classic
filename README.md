@@ -3,7 +3,7 @@
 A tiny class module for Lua. Attempts to stay simple and provide decent
 performance by avoiding unnecessary over-abstraction.
 
-## For changes
+## Fork changes
 
 Changes that I made to this library:
 
